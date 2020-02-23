@@ -76,5 +76,4 @@ QUESTION: why use OCR0A and OCR0B? why two of them fir timer counter 0?
 ## timer counter 2
 
 DA FARE: CONTROLLA COME USARE PWM PER TIMER COUNTER 1, DAT ìO CHE TIMER COUNTER 0 SI USA PER LA FUNZIONE DELAY!
-
-
+DA FARE: schematizza https://www.youtube.com/watch?v=O_Yqf_cugwE
