@@ -13,3 +13,6 @@ https://www.microchip.com/wwwproducts/en/ATtiny85
 ### Beginners guide to avr assembly
 http://www.avr-asm-tutorial.net/avr_en/beginner/index.html
 
+### arduino tutorials
+https://exploreembedded.com/wiki/Basics_of_AVR_%27C%27
+
