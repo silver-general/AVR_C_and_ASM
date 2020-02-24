@@ -1,6 +1,10 @@
 ## super cool guide
 https://ccrma.stanford.edu/wiki/AVR_Programming#C_Syntax
 
+## generic C stuff
+
+...
+
 ## REGISTERS
 * attiny85 has 8bit registers.
 * for input/output, there are two ports: port A and B
@@ -48,3 +52,11 @@ u08 bar;  // declare an 8-bit variable
                      // bar now contains the logic value at Port D pin 2
 ~~~
 
+
+TO DO
+
+program memory directives
+
+some kind of printf for lcd screens
+
+makefile
