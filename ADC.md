@@ -4,7 +4,7 @@ http://maxembedded.com/2011/06/the-adc-of-the-avr/
 ### 
 https://maker.pro/custom/tutorial/how-to-take-analog-readings-with-an-avr-microcontroller
 
-
+```
 /*	SETTINGS FOR ADC	*/	
 
 // voltage reference: bits REFS[2:0] in ADMUX
@@ -33,3 +33,4 @@ https://maker.pro/custom/tutorial/how-to-take-analog-readings-with-an-avr-microc
 
 // repetition: start free running mode
 ADCSRA |= 1<<ADSC;
+```
