@@ -34,3 +34,7 @@ https://maker.pro/custom/tutorial/how-to-take-analog-readings-with-an-avr-microc
 // repetition: start free running mode
 ADCSRA |= 1<<ADSC;
 ```
+
+### acquire a value via ADC
+read values from ADCL and ADCH.  
+NOTE: you can read just ADCH, or if you read ADCL you then must read ADCH, or the next conversion won't be made. this is done to avoid mixing conversions
