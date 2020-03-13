@@ -33,7 +33,7 @@ TCCR0A |= (1<<COM0A1); // "toggle"
 
 // SELECT FAST PWM OUTPUT PIN in DDRB
 // avaiable pins: see pinout. OC0A (or OC0B???) -----------------------------???
-DDRB |= (1 << PB0);	// sets PB0 (pin 0 of PINB register) as output, that is also the pin for OC0A
+DDRB |= (1 << 0C0A);	// sets PB0 (pin 0 of PINB register) as output, that is also the pin for OC0A
 	
 // INTERRUPTS 
 
