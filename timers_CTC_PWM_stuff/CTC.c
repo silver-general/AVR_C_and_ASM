@@ -1,7 +1,9 @@
-## STUFF YOU NEED TO SET
+/* STUFF YOU NEED TO SET
 I took notes while programming, that's why there are comment symbols.  
 The idea is to set it up to play sounds from 30 to 7.8kHz.  
 I still have to figure out how precisely floats are handled, I need to study a bit more of assembly.
+*/
+
 
 // CTC: STUFF YOU NEED TO SET
 
