@@ -1,9 +1,8 @@
 ## TERRIBLE ARPEGGIATOR
 
 First try at making sounds using CTC (clear timer on compare, 50% duty cycle, variable frequency wave).  
-I am using timer counter 0, OCR0A as output compare register (determines frequency), PB0 as out (same as OC0A, physical pin 5)
-
-
+I am using timer counter 0, OCR0A as output compare register (determines frequency), PB0 as out (same as OC0A, physical pin 5).  
+See CTC.c for theory and a bit of code all in a place.
 
 
 ```
