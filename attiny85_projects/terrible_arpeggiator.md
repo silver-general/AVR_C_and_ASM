@@ -9,7 +9,7 @@ See CTC.c for theory and a bit of code all in a place.
 #include <avr/io.h>
 #include <avr/interrupt.h>
 #include <util/delay.h>
-#include "C:\Users\Agnese\Documents\Atmel Studio\7.0\personal_libraries\my_CTC.c"
+
 #define DELAY 150
 
 void CTC_init();
