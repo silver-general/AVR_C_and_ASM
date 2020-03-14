@@ -39,5 +39,5 @@ TCCR0B &= ~(1<<CS02|1<<CS01|1<<CS00); // deactivate it
 // set the output compare A interrupt
 // handle interrupts with ISR(TIMER0_COMPA_vect) { do stuff }
 TIMSK |= 1<<OCIE0A;
-// set external interrupts (BEFORE THE PRESCALER?!?!?!?)
+// set external interrupts (BEFORE THE PRESCALER? does it make any difference?)
 sei();
